@@ -6,8 +6,13 @@ To run the app, you need to have a valid Azure account and then follow the steps
 
 To install the dependencies use:
 
-```bash
+```
 python -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.lock
 ```
+
+To run the app type the following:
+```
+streamlit run src/reztract/app.py --server.runOnSave true
+``` 
